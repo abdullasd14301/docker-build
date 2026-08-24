@@ -60,7 +60,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
 
           script: |
-            cd ~/home/ubuntu/docker-build
+            cd ~/docker-build
 
             git pull origin main
 
